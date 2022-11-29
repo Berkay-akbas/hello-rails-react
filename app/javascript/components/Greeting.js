@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchGreeting } from '../redux/action_reducer';
+/* eslint-disable */
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchGreeting } from "../redux/action_reducer";
 
 const Greeting = () => {
   const greeting = useSelector((state) => state.greetings);
