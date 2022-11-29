@@ -1,4 +1,5 @@
-import { Application } from '@hotwired/stimulus';
+/* eslint-disable */
+import { Application } from "@hotwired/stimulus";
 
 const application = Application.start();
 
